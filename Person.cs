@@ -37,11 +37,16 @@ namespace Contacts
             get { return telephoneNumber; }
             set { telephoneNumber = value; }
         }
-        
-        private Type type;
-        
 
-        public Person(string name, string address, int age, int telephoneNumber, Type type)
+        private string type;
+
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+        
+        public Person(string name, string address, int age, int telephoneNumber, string type)
         {
             this.name = name;
             this.address = address;

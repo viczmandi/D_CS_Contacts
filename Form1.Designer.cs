@@ -40,6 +40,7 @@
             this.typeComboBox = new System.Windows.Forms.ComboBox();
             this.saveBtn = new System.Windows.Forms.Button();
             this.listBtn = new System.Windows.Forms.Button();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // nameLabel
@@ -118,10 +119,6 @@
             // typeComboBox
             // 
             this.typeComboBox.FormattingEnabled = true;
-            this.typeComboBox.Items.AddRange(new object[] {
-            "Home",
-            "Workplace",
-            "Mobile"});
             this.typeComboBox.Location = new System.Drawing.Point(55, 122);
             this.typeComboBox.Name = "typeComboBox";
             this.typeComboBox.Size = new System.Drawing.Size(217, 21);
@@ -136,6 +133,7 @@
             this.saveBtn.TabIndex = 10;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // listBtn
             // 
@@ -145,12 +143,22 @@
             this.listBtn.TabIndex = 11;
             this.listBtn.Text = "List";
             this.listBtn.UseVisualStyleBackColor = true;
+            this.listBtn.Click += new System.EventHandler(this.listBtn_Click);
+            // 
+            // listBox
+            // 
+            this.listBox.FormattingEnabled = true;
+            this.listBox.Location = new System.Drawing.Point(278, 13);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(332, 173);
+            this.listBox.TabIndex = 12;
             // 
             // ContactsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 308);
+            this.ClientSize = new System.Drawing.Size(622, 195);
+            this.Controls.Add(this.listBox);
             this.Controls.Add(this.listBtn);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.typeComboBox);
@@ -184,6 +192,7 @@
         private System.Windows.Forms.ComboBox typeComboBox;
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Button listBtn;
+        private System.Windows.Forms.ListBox listBox;
     }
 }
 

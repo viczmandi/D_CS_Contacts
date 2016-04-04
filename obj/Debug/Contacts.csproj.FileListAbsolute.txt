@@ -1,0 +1,9 @@
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\bin\Debug\Contacts.exe
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\bin\Debug\Contacts.pdb
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.csprojResolveAssemblyReference.cache
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.ContactsForm.resources
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.csproj.GenerateResource.Cache
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.exe
+C:\Users\viczmandni\Documents\Visual Studio 2015\Projects\Week13B_LiveDemo\Contacts\obj\Debug\Contacts.pdb

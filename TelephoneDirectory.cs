@@ -8,12 +8,6 @@ namespace Contacts
 {
     class TelephoneDirectory
     {
-        List<Person> contactList = new List<Person>(50);
-
-        public TelephoneDirectory()
-        {
-
-        } 
-
+        public static List<Person> contactList = new List<Person>(50);
     }
 }
