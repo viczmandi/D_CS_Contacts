@@ -80,7 +80,7 @@
             this.addressBox.Location = new System.Drawing.Point(55, 39);
             this.addressBox.Name = "addressBox";
             this.addressBox.Size = new System.Drawing.Size(217, 20);
-            this.addressBox.TabIndex = 5;
+            this.addressBox.TabIndex = 2;
             // 
             // addressLabel
             // 
@@ -96,7 +96,7 @@
             this.mobileBox.Location = new System.Drawing.Point(55, 91);
             this.mobileBox.Name = "mobileBox";
             this.mobileBox.Size = new System.Drawing.Size(217, 20);
-            this.mobileBox.TabIndex = 7;
+            this.mobileBox.TabIndex = 4;
             // 
             // mobileLabel
             // 
@@ -122,8 +122,7 @@
             this.typeComboBox.Location = new System.Drawing.Point(55, 122);
             this.typeComboBox.Name = "typeComboBox";
             this.typeComboBox.Size = new System.Drawing.Size(217, 21);
-            this.typeComboBox.TabIndex = 9;
-            this.typeComboBox.SelectedIndexChanged += new System.EventHandler(this.typeComboBox_SelectedIndexChanged);
+            this.typeComboBox.TabIndex = 5;
             // 
             // saveBtn
             // 
@@ -148,6 +147,7 @@
             // listBox
             // 
             this.listBox.FormattingEnabled = true;
+            this.listBox.HorizontalScrollbar = true;
             this.listBox.Location = new System.Drawing.Point(278, 13);
             this.listBox.Name = "listBox";
             this.listBox.Size = new System.Drawing.Size(332, 173);

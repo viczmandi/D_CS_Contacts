@@ -25,24 +25,17 @@ namespace Contacts
             typeComboBox.Items.Add(Type.Mobile.ToString());
         }
 
-
-
-        private void typeComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void saveBtn_Click(object sender, EventArgs e)
         {
-            TelephoneDirectory.contactList.Add(new Person(nameBox.Text, addressBox.Text, Int32.Parse(ageBox.Text), Int32.Parse(mobileBox.Text), typeComboBox.Text));
+            TelephoneDirectory.contactList.Add(new Person(nameBox.Text, addressBox.Text, int.Parse(ageBox.Text), int.Parse(mobileBox.Text), typeComboBox.Text));
         }
 
         private void listBtn_Click(object sender, EventArgs e)
         {
             typeComboBox.Items.Clear();
-            for (int i = 0; i < TelephoneDirectory.contactList.Count; i++)
+            foreach (var contact in TelephoneDirectory.contactList)
             {
-                typeComboBox.Items.Add(TelephoneDirectory.contactList[i].ToString());
+                listBox.Items.Add(contact);
             }
         }
     }
