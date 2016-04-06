@@ -30,9 +30,9 @@ namespace Contacts
             get { return age; }
             set { age = value; }
         }
-        private int telephoneNumber;
+        private long telephoneNumber;
 
-        public int Mobile
+        public long Mobile
         {
             get { return telephoneNumber; }
             set { telephoneNumber = value; }
@@ -46,7 +46,7 @@ namespace Contacts
             set { type = value; }
         }
         
-        public Person(string name, string address, int age, int telephoneNumber, string type)
+        public Person(string name, string address, int age, long telephoneNumber, string type)
         {
             this.name = name;
             this.address = address;
